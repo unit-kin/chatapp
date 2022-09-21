@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    
+  }
+.message{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px ;
+
+}
+.owner{
+    flex-direction: row-reverse;
+      
+}
+.owner .messageContent{
+    align-items: flex-end;
+}
+.owner .messageContent p{
+    background-color:  rgb(98, 201, 98);
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+}
+.messageinfo{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-weight: 300;
+}
+.messageinfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.messageContent{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.messageContent img{
+    width: 50%;
+}
+.messageContent p{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 10px ;
+    max-width: max-content;
+}

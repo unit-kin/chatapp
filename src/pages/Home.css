@@ -1,0 +1,18 @@
+.Home-container1{
+    background-color: rgb(125, 204, 125);
+    height: 100vh;
+}
+.Chat-container2{
+    margin-left: 220px;
+    align-self:center;
+    text-align: center;
+    width: 800px;
+    height: 90vh;
+    
+    background-color: white;
+    margin-top: 50px;
+    
+    border-radius: 11px;
+    position:absolute;
+    display: flex;
+}

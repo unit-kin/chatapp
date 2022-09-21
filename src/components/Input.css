@@ -1,0 +1,43 @@
+.Input{
+  display: flex;
+  height:50px;
+  background-color:gray;
+  border-radius: 0 0 10px 0;
+  justify-content: space-between;
+}
+
+.Input .input1{
+  height: 30px;
+  margin-top: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+}
+.Input input::placeholder{
+  color:grey;
+}
+.attachdocs {
+  margin-top: 15px;
+}
+
+
+.Input button{
+  width: 70px;
+  height: 40px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  background-color: rgb(119, 190, 119);
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.Input button span{
+  margin-left: 15px;
+}
+.Input .attachdocs{
+  margin-top: 0rem;
+}

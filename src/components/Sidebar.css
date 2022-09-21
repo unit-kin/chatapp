@@ -1,0 +1,61 @@
+.Sidebar{
+    width: 400px;
+    height: fit-content;
+}
+
+/* Side nav */
+.Side-nav{
+    background-color: rgb(51, 85, 51);
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0 0 0px;
+    height: 50px;
+}
+.Side-nav .span1{
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.prof-details{
+    display: flex;  
+    align-items: center;
+    gap: 1rem;
+    margin-left: 95px;
+    color: #fff;
+}
+.prof-details img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Chats-Box */
+.Chats-box{
+    background-color: rgb(84, 131, 84);
+    height: fit-content;
+    margin-top: 0rem;
+    border-radius: 0px 0 0 10px;
+    height: 82.3vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
+}
+ 
+.search-form {
+    padding-top: 10px;
+}
+
+.search-form input{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+
+}
+.Chats-box hr{
+    color: #fff;
+    border-top: none;
+}

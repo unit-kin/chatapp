@@ -1,0 +1,24 @@
+.top-bar{
+    display: flex;
+    color: #fff;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(119, 190, 119);
+    width: 470px;
+    border-radius: 0 10px 0px 0;
+}
+
+.top-bar .Chating-name{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.top-bar .top-icons{
+    display: flex;
+    align-self: center;
+    justify-self: flex-end;
+    gap: 2rem;
+    margin-left: 270px;
+    width: 25px;
+    margin-top: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.userchats{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: #fff;
+    height: 90px;
+}
+.userchats:hover{
+    background-color: rgb(26, 65, 26);
+}
+.userchats img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Contact-name{
+    line-height: 4px;
+    padding-top: 17px;
+}
